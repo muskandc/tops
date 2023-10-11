@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: rgb(85, 83, 83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li a {
+    color: aliceblue;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.icon {
+    margin-right: -11rem;
+}
+
+.icon i {
+    background-color: wheat;
+    color: black;
+    padding: 5px;
+
+}
+.product{
+    margin-top: 2rem;
+}
+.product{
+    display: flex;
+    gap: 5%;
+    margin-left: 4rem;
+}
+.prodcut-con img{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(85, 83, 83);
+    margin-left: 2rem;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    #menu-bar {
+        display: block;
+    }
+
+    .navbar {
+        width: 100%;
+        position: absolute;
+        top: -59%;
+        left: 0;
+        flex-direction: column;
+    }
+
+    .navbar.active {
+        top: 15%;
+    }
+
+    .navbar li a {
+        color: white;
+    }
+
+    .navbar li {
+        background-color: black;
+        padding: 10px;
+        border: 1px solid gray;
+    }
+
+    .logo {
+        font-size: 19px;
+    }
+
+    /*.icon {
+        display: flex;
+        margin-left: -7rem;
+    
+         }
+    
+         .icon i {
+             padding: 5px;
+             border-radius: 5px;
+             margin-right: 1px;
+         }
+    
+         .search-form {
+             position: absolute;
+             top: -115%;
+             left: 0;
+             width: 100%;
+             height: 80vh;
+             background-color: rgba(0, 0, 0, 0.6);
+         }
+    
+         .search-form.active {
+             top: 15%;
+         }
+    
+         #close {
+             position: absolute;
+             right: 1rem;
+             top: 1rem;
+             background-color: aliceblue;
+             padding: 5px;
+             color: black;
+         }
+    
+         .search-form input {
+             position: absolute;
+             top: 27%;
+             left: 2%;
+             background-color: black;
+             border: 1px solid black;
+             padding: 5px;
+             color: white;
+         }
+    
+         .shopping-cart1 {
+             position: absolute;
+             top: -106%;
+             left: 5rem;
+             padding: 5px 5px;
+         }
+    
+         .shopping-cart1.active {
+             top: 16%;
+         }
+    
+         .shopping-cart1 img {
+             width: 100px;
+             height: 70px;
+         }
+    
+         .shopping-cart1 h6 {
+             font-size: 19px;
+             columns: darkred;
+         }*/
+         .product{
+            flex-direction: column;
+            margin-left: 2px;
+         }
+        }
